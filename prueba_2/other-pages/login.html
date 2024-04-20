@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>login</h1>
+    <div class="flex font-color">
+        <form class="borde">
+            <h1>SIGN UP</h1>
+            <label for="fcorreo">Correo electronico</label><br>
+            <input type="email" name="fcorreo" id="fcorreo" placeholder="Example@email.com" required><br><br>
+
+            <label for="fnombre">Nombre</label><br>
+            <input type="text" name="fnombre" id="fnombre" required><br><br>
+
+            <label for="fapellido">Apellido</label><br>
+            <input type="text" name="fapellido" id="fapellido" required><br><br>
+        
+            <label for="fgenero">Genero</label><br>
+            <label><input type="radio" name="fgenero" value="m" required> Male</label>
+            <label><input type="radio" name="fgenero" value="f"> Female</label>
+            <label><input type="radio" name="fgenero" value="b"> Box</label><br><br>
+
+            <input type="submit" value="Confirmar">
+        </form>
+    </div>
 </body>
 </html>
