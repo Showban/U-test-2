@@ -1,0 +1,36 @@
+.encabezado{
+    background-color: transparent;
+    font-family: 'CascadiaMono';
+    font-size: 80px;
+    text-align: center;
+    padding: 15px;
+}
+
+.fondo{
+    text-align: center;
+    color: #222529;
+}
+
+body{
+    background-image: url(https://i.imgur.com/T0HFwGJ.jpg) ;
+    color: #1579dd;
+}
+
+.flexible{
+    display: flex;
+    background-color: transparent;
+    border: solid 30px transparent;
+    height: 500px;   
+}
+
+.flexible > div{
+    background-color: transparent;
+    color: #1579dd;
+    
+}
+
+.flexible > p{
+    font-size: 20px;
+    text-align: center;
+}
+

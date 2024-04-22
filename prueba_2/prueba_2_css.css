@@ -76,3 +76,8 @@ body{
 .ul-item > li{
     color: white
 }
+
+.fondo{
+    text-align: center;
+    color: #222529;
+}
